@@ -8,6 +8,7 @@ class CreateProjects < ActiveRecord::Migration[6.0]
       t.string :content
 
       t.timestamps
+      enum projects: [:name, :description, :start_date, :end_date, :content]
     end
   end
 end
