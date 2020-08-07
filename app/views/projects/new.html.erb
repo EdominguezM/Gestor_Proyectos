@@ -1,4 +1,4 @@
-<% if @project.errors.any?%>
+ <% if @project.errors.any?%>
   <div id="error_explanation">
     <h2>
       <% pluralize(@project.errors.count, "error") %>
@@ -11,6 +11,6 @@
     </ul>
   </div>
 <%else%>
-  <h1>Proyecto Guardado con éxito</h1>
+ <h1>Proyecto Guardado con éxito</h1>
 <%end%>
  <hr><button  onclick="history.back()" class="btn btn-primary btn-lg">Volver</button>
