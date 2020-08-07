@@ -18,8 +18,7 @@ ActiveRecord::Schema.define(version: 2020_08_02_220051) do
     t.date "start_date"
     t.date "end_date"
     t.string "content"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
+    
   end
 
 end
