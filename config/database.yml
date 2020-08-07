@@ -22,4 +22,6 @@ test:
 
 production:
   <<: *default
-  database: db/production.postgres
+  database: db/production.postgresql
+  enconding: unicode
+  database: <%= ENV['RDS_DB_PROJECTS'] %>
